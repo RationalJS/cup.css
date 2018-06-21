@@ -1,0 +1,59 @@
+:root {
+  --html-font-size: 16px;
+  --html-font-weight: 300;
+  --html-line-height: 1.6;
+
+  --font-size: .7rem;
+  --font-size-sm: .6rem;
+  --font-size-lg: .8rem;
+
+  /* Adjust this to be ~50-70 characters per line */
+  --readable-text-width: 560px;
+  --text-spacing: 2rem;
+
+  --sans-serif: helvetica, ubuntu, arial, sans-serif;
+  --serif: georgia, times, serif;
+  --monospace: Consolas, monaco, monospace;
+
+  --body-font: var(--sans-serif);
+  --header-font: var(--sans-serif);
+
+  /**
+   * Colors
+   */
+  /*--primary-color: hsl(207, 70%, 77%);*/
+  --primary-color: hsl(201, 83%, 50%);
+  --secondary-color: hsl(332, 79%, 58%);
+  --link-color: var(--primary-color);
+
+  /*--black-text-color: #111;*/
+  /*--black-text-color: #16202B;*/
+  --black-text-color: hsla(206, 29%, 10%, 1);
+
+  --body-font-color: var(--black-text-color);
+  --body-bg-color: hsla(211, 35%, 97%, 1);
+  /*--body-bg-color: blue;*/
+
+  --border-width: --unit-o;
+  --border-width-lg: --unit-h;
+  --border-color: #454545;
+
+
+  /**
+   * Units
+   */
+  --unit-o: .2rem;
+  --unit-h: .1rem;
+  --unit: .5rem;
+
+  /**
+   * Nav
+   */
+  --nav-height: 3rem;
+  --nav-link-color: hsla(209, 7%, 20%, 1);
+
+  /**
+   * Buttons
+   */
+  --btn-height: 4rem;
+}
