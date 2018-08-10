@@ -2,6 +2,9 @@
 @import "./_variables.css";
 
 @import "./sensible-defaults.css";
+
+/* Core */
+@import "./layout.css";
 @import "./typography.css";
 @import "./util.css";
 

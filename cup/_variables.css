@@ -21,18 +21,17 @@
   /**
    * Colors
    */
-  /*--primary-color: hsl(207, 70%, 77%);*/
   --primary-color: hsl(201, 83%, 50%);
-  --secondary-color: hsl(332, 79%, 58%);
+  --secondary-color: hsla(0, 3%, 79%, 1);
   --link-color: var(--primary-color);
-
-  /*--black-text-color: #111;*/
-  /*--black-text-color: #16202B;*/
   --black-text-color: hsla(206, 29%, 10%, 1);
 
+  --success-color: hsla(135, 80%, 41%, 1);
+  --warning-color: hsla(34, 83%, 50%, 1);
+  --danger-color: hsla(356, 90%, 57%, 1);
+
   --body-font-color: var(--black-text-color);
-  --body-bg-color: hsla(211, 35%, 97%, 1);
-  /*--body-bg-color: blue;*/
+  --body-bg-color: hsla(211, 35%, 99%, 1);
 
   --border-width: --unit-o;
   --border-width-lg: --unit-h;
@@ -56,4 +55,5 @@
    * Buttons
    */
   --btn-height: 4rem;
+  --btn-padding: 1.7rem;
 }
