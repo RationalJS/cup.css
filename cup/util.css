@@ -15,7 +15,7 @@
 
 
 /* Spacing */
-.m-center { margin-left: auto; margin-right: auto; }
+.center { margin-left: auto; margin-right: auto; }
 
 .mt-t { margin-top: var(--text-spacing);  }
 .mb-t { margin-bottom: var(--text-spacing);  }
